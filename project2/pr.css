@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/2198586322/vector/abstract-modern-hexagon-background-white-and-green-honey-pattern-geometric-texture.jpg?s=612x612&w=0&k=20&c=kIUXxbKPCilhPo1J_5kxq6TS_v-xuRQjHqYeGKqeZko=);
+}
+.header{
+  
+    width: 105%;
+    height: 140px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.east i{
+  position: fixed;
+ bottom: 130px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: grey;
+  font-size: 2.5rem;
+  box-shadow: 0px 5px 5px ;
+  transition: 0.3s;
+}
+.east i:hover{
+  color: rgb(92, 103, 255);
+}
+
+.inst i{
+  position: fixed;
+ bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: grey;
+  font-size: 2.5rem;
+  box-shadow: 0px 5px 5px ;
+  transition: 0.3s;
+}
+.inst i:hover{
+  color: rgb(231, 2, 124);
+}
+
+.lop{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.re{
+    
+    color: rgb(10, 10, 10);
+    width: 500px;
+    height: 45px;
+    border-radius: 15px;
+    margin:  0 0 0 120px;
+    background-color: white;
+    padding: 0 18px;
+    border: 1px grey solid;
+    outline: none;
+}
+.mj{
+    border-style: none;
+     color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin:  0 0 0 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 0 18px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.mj:hover{
+     /* width: 102px;
+    height: 55px;
+     box-shadow: 2px 1px 2px 2px rgb(158, 157, 157); */
+     transform: scale(1.15);
+}
+.mj:active{
+   /* width: 100px;
+    height: 50px; */
+    transform: none;
+}
+.op{
+    margin-left: 200px;
+    font-size: 50px;
+}
+.ivo{
+    display: none;
+    font-size: 30px;
+}
+.mm{
+    border-style: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    margin:  0 0 0 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.mm:hover{
+     /* width: 202px;
+    height: 55px;
+     box-shadow: 2px 1px 2px 2px rgb(172, 166, 166); */
+     transform: scale(1.15);
+}
+.mm:active{
+     /* width: 200px;
+    height: 50px; */
+    transform: none;
+}
+.qq{
+    border: 1px grey solid;
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    font-size: 23px;
+    border-radius: 15px;
+    transition: 0.3s;
+   padding: 6px;
+  
+}
+.qq:hover{
+     /* width: 103px;
+    height: 53px;
+     box-shadow: 2px 1px 2px 2px rgb(158, 157, 157); */
+     transform: scale(1.2);
+}
+.qq:active{
+   /* height: 50px;
+    width: 100px; */
+    transform: none;
+}
+
+.mk{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+}
+.inp{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.ln{
+margin-top: 10px;
+}
+
+.r{ 
+    margin: 0 ;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.n{
+    margin: 0 0 0 0px ;
+    font-size: 52px;
+    padding: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gr{
+    color: rgba(3, 207, 3, 0.875);
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.goul{
+    margin: 100px auto;
+    width: 1500px;
+    display: flex;
+    overflow-x: hidden;
+    gap: 30px;
+
+}
+
+.goul::-webkit-scrollbar{
+    display: none;
+}
+
+.hero{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    animation: efer 7s linear infinite;
+}
+.var{
+    height: 450px;
+    width: 400px;
+    border-radius: 40px;
+}
+@keyframes efer{
+from{
+    transform: translate(0);
+}
+to{
+    transform: translate(-100%);
+}
+}
